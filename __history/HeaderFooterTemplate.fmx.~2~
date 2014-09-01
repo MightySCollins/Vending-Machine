@@ -1,0 +1,168 @@
+object HeaderFooterForm: THeaderFooterForm
+  Left = 0
+  Top = 0
+  Caption = 'Header Footer Form'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  DesignerMobile = True
+  DesignerWidth = 384
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object Header: TToolBar
+    Height = 48.000000000000000000
+    TabOrder = 0
+    Width = 384.000000000000000000
+    object HeaderLabel: TLabel
+      Align = alContents
+      Height = 48.000000000000000000
+      StyleLookup = 'toollabel'
+      Text = 'Vending Machine'
+      TextAlign = taCenter
+      Width = 384.000000000000000000
+    end
+  end
+  object Footer: TToolBar
+    Align = alBottom
+    Height = 48.000000000000000000
+    Position.Y = 519.000000000000000000
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+    Width = 384.000000000000000000
+  end
+  object btn10p: TButton
+    Height = 44.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 2
+    Text = '10p'
+    Trimming = ttCharacter
+    Width = 73.000000000000000000
+    OnClick = btn10pClick
+  end
+  object btp20p: TButton
+    Height = 44.000000000000000000
+    Position.X = 104.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 3
+    Text = '20p'
+    Trimming = ttCharacter
+    Width = 73.000000000000000000
+    OnClick = btp20pClick
+  end
+  object btn1: TButton
+    Height = 44.000000000000000000
+    Position.X = 280.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 4
+    Text = #163'1'
+    Trimming = ttCharacter
+    Width = 73.000000000000000000
+    OnClick = btn1Click
+  end
+  object btn50p: TButton
+    Height = 44.000000000000000000
+    Position.X = 192.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 5
+    Text = '50p'
+    Trimming = ttCharacter
+    Width = 73.000000000000000000
+    OnClick = btn50pClick
+  end
+  object Label1: TLabel
+    Height = 23.000000000000000000
+    Position.X = 120.000000000000000000
+    Position.Y = 64.000000000000000000
+    Text = 'Select your coins:'
+    Width = 161.000000000000000000
+    Trimming = ttCharacter
+  end
+  object btnrefund: TButton
+    Height = 44.000000000000000000
+    Position.X = 280.000000000000000000
+    Position.Y = 152.000000000000000000
+    TabOrder = 7
+    Text = 'Refund'
+    Trimming = ttCharacter
+    Width = 73.000000000000000000
+    OnClick = btnrefundClick
+  end
+  object Label2: TLabel
+    Height = 23.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 168.000000000000000000
+    Text = 'Your credit:'
+    Width = 121.000000000000000000
+    Trimming = ttCharacter
+    OnClick = Label2Click
+  end
+  object lblcredit: TLabel
+    Height = 23.000000000000000000
+    Position.X = 120.000000000000000000
+    Position.Y = 168.000000000000000000
+    Text = 'None'
+    Width = 113.000000000000000000
+    Trimming = ttCharacter
+    OnClick = lblcreditClick
+  end
+  object btnCoke: TButton
+    Height = 44.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 256.000000000000000000
+    TabOrder = 10
+    Text = 'Coke '#163'1.50'
+    Trimming = ttCharacter
+    Width = 329.000000000000000000
+    OnClick = btnCokeClick
+  end
+  object btnSprite: TButton
+    Height = 44.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 304.000000000000000000
+    TabOrder = 11
+    Text = 'Sprite '#163'1.50'
+    Trimming = ttCharacter
+    Width = 329.000000000000000000
+  end
+  object btnLemon: TButton
+    Height = 44.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 352.000000000000000000
+    TabOrder = 12
+    Text = 'Lemonade '#163'1.00'
+    Trimming = ttCharacter
+    Width = 329.000000000000000000
+  end
+  object btnFanta: TButton
+    Height = 44.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 400.000000000000000000
+    TabOrder = 13
+    Text = 'Fanta '#163'1.00'
+    Trimming = ttCharacter
+    Width = 329.000000000000000000
+  end
+  object btnYazoo: TButton
+    Height = 44.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 448.000000000000000000
+    TabOrder = 14
+    Text = 'Yazoo '#163'2.00'
+    Trimming = ttCharacter
+    Width = 329.000000000000000000
+  end
+  object Label3: TLabel
+    Height = 23.000000000000000000
+    Position.X = 136.000000000000000000
+    Position.Y = 224.000000000000000000
+    Text = 'Our Products:'
+    Width = 129.000000000000000000
+    Trimming = ttCharacter
+  end
+end
